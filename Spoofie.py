@@ -12,6 +12,7 @@ try:
     import customtkinter as ctk
 except:
     os.system("pip install customtkinter")
+    os.system("pip3 install customtkinter --break-system-packages")
     import customtkinter as ctk
 
 if subprocess.os.name == 'nt':  # Windows
